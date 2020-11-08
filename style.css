@@ -1,0 +1,82 @@
+body, html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	background-color: rgb(224,224,224);
+}
+
+.wow {
+	font-size: 20px;
+}
+
+.cek {
+	position: absolute;
+	right: 0px;
+}
+
+.card {
+	margin: 10px;
+	margin-bottom: 20px;
+}
+
+.otvoren:active {
+	border-bottom: 2px solid blue;
+	font-weight: bold;
+}
+
+.sidenav {
+	background-color: white;
+	width: 30%;
+	height: 70%;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
+.jumbotron {
+	background-color: white;
+}
+
+.sidenav .nav-link {
+	border-bottom: 1px solid rgb(224,224,224);
+}
+
+.sidenav a {
+	text-decoration: none;
+	color: black;
+}
+
+.sidebar .nav-link:focus {
+	background-color: rgb(240,240,240);
+	font-weight: 500;
+	border-left: 1px solid blue;
+}
+
+.sidenav .active {
+	background-color: rgb(240,240,240);
+	font-weight: 500;
+	border-left: 1px solid blue;
+}
+.predvor {
+	color: blue;
+	font-size: 20px;
+}
+
+.ostatak {
+	padding: 0px;
+	position: absolute;
+	right: 0px;
+}
+
+.navbar .nav-link:focus {
+	font-weight: bold;
+	border-bottom: 1px solid blue;
+}
+
+.navbar .active {
+	font-weight: bold;
+	border-bottom: 1px solid blue;
+}
